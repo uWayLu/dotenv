@@ -10,5 +10,4 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 
 fcitx5 -d
-xrandr --output HDMI-1 --primary --output DVI-D-0 --right-of HDMI-1 --rotate left
-feh --bg-scale /usr/share/wallpapers/FallenLeaf/contents/images/2560x1600.jpg
+# xrandr --output HDMI-1 --primary --output DVI-D-0 --right-of HDMI-1 --rotate left
