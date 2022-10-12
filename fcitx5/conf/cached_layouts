@@ -248,7 +248,7 @@ Description="鍵盤 - 烏克蘭語 - 克里米亞韃靼語 (土耳其語 Alt-Q)"
 Language=crh
 Label=crh
 
-[keyboard-ua-pe6]
+[keyboard-ua-sun_type6]
 Description="鍵盤 - 烏克蘭語 - 烏克蘭語 (昇陽 Type 6/7)"
 Language=uk
 Label=ua
@@ -337,6 +337,16 @@ Label=ru
 Description="鍵盤 - 俄語 - 俄語 (打字機)"
 Language=ru
 Label=ru
+
+[keyboard-ru-ruchey_ru]
+Description="鍵盤 - 俄語 - Russian (engineering, RU)"
+Language=ru
+Label=ru
+
+[keyboard-ru-ruchey_en]
+Description="鍵盤 - 俄語 - Russian (engineering, EN)"
+Language=ru
+Label=en
 
 [keyboard-ru-legacy]
 Description="鍵盤 - 俄語 - 俄語 (舊式)"
@@ -483,15 +493,10 @@ Description="鍵盤 - 俄語 - Russian (Polyglot and Reactionary)"
 Language=ru
 Label=ru
 
-[keyboard-ru-ruchey_cyrillic]
-Description="鍵盤 - 俄語 - Russian (Engineering, Cyrillic)"
+[keyboard-ru-winkeys-p]
+Description="鍵盤 - 俄語 - Russian (Programmer)"
 Language=ru
-Label=ru
-
-[keyboard-ru-ruchey_latin]
-Description="鍵盤 - 俄語 - Russian (Engineering, Latin)"
-Language=ru
-Label=us
+Label=winkeys-p
 
 [keyboard-trans]
 Description="鍵盤 - International Phonetic Alphabet"
@@ -512,6 +517,11 @@ Label=fa
 Description="鍵盤 - 波斯語 - Persian (with Persian keypad)"
 Language=fa
 Label=ir
+
+[keyboard-ir-azb]
+Description="鍵盤 - 波斯語 - Azerbaijani (Iran)"
+Language=azb
+Label=azb
 
 [keyboard-ir-ku]
 Description="鍵盤 - 波斯語 - 庫德語 (伊朗，拉丁字母 Q)"
@@ -644,7 +654,7 @@ Language=et
 Label=ee
 
 [keyboard-ee-sun_type6]
-Description="鍵盤 - 愛沙尼亞語 - (Sun Type 6/7)"
+Description="鍵盤 - 愛沙尼亞語 - 愛沙尼亞語 (昇陽 Type 6/7)"
 Language=et
 Label=ee
 
@@ -1134,7 +1144,7 @@ Language=hr
 Label=hr
 
 [keyboard-hr-unicodeus]
-Description="鍵盤 - 克羅埃西亞語 - tian (US, with Croatian digraphs)"
+Description="鍵盤 - 克羅埃西亞語 - Croatian (US, with Croatian digraphs)"
 Language=hr
 Label=hr
 
@@ -1564,7 +1574,7 @@ Language=si
 Label=si
 
 [keyboard-lk-tam_unicode]
-Description="鍵盤 - 錫蘭僧加羅語 (音標) - Tamil (Sri Lanka, TamilNet '99)"
+Description="鍵盤 - 錫蘭僧加羅語 (音標) - (Sri Lanka, TamilNet '99)"
 Language=ta
 Label=ta
 
@@ -1813,6 +1823,11 @@ Description="鍵盤 - 白俄羅斯語 - Belarusian (intl.)"
 Language=be
 Label=by
 
+[keyboard-by-phonetic]
+Description="鍵盤 - 白俄羅斯語 - Belarusian (phonetic)"
+Language=be
+Label=by
+
 [keyboard-br]
 Description="鍵盤 - 葡萄牙 (巴西)"
 Language=pt
@@ -1953,28 +1968,33 @@ Description="鍵盤 - 印度語 - Ol Chiki"
 Language=sat
 Label=sat
 
-[keyboard-in-tam_tamilnet]
+[keyboard-in-tamilnet]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_with_tam_nums]
+[keyboard-in-tamilnet_tamilnumbers]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99 with Tamil numerals)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_TAB]
+[keyboard-in-tamilnet_TAB]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99, TAB encoding)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_TSCII]
+[keyboard-in-tamilnet_TSCII]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99, TSCII encoding)"
 Language=ta
 Label=ta
 
 [keyboard-in-tam]
-Description="鍵盤 - 印度語 - Tamil (InScript)"
+Description="鍵盤 - 印度語 - Tamil (InScript, with Arabic numerals)"
+Language=ta
+Label=ta
+
+[keyboard-in-tam_tamilnumbers]
+Description="鍵盤 - 印度語 - Tamil (InScript, with Tamil numerals)"
 Language=ta
 Label=ta
 
@@ -2089,7 +2109,7 @@ Language=de
 Label=be
 
 [keyboard-be-wang]
-Description="鍵盤 - 比利時語 - elgian (Wang 724 AZERTY)"
+Description="鍵盤 - 比利時語 - Belgian (Wang 724 AZERTY)"
 Language=de
 Label=be
 
@@ -2464,17 +2484,7 @@ Language=fr
 Label=fr
 
 [keyboard-ca-multix]
-Description="鍵盤 - 法語 (加拿大) - Canadian (intl.)"
-Language=fr
-Label=ca
-
-[keyboard-ca-multi]
-Description="鍵盤 - 法語 (加拿大) - Canadian (intl., 1st part)"
-Language=fr
-Label=ca
-
-[keyboard-ca-multi-2gr]
-Description="鍵盤 - 法語 (加拿大) - Canadian (intl., 2nd part)"
+Description="鍵盤 - 法語 (加拿大) - Canadian (CSA)"
 Language=fr
 Label=ca
 
@@ -2828,13 +2838,18 @@ Description="鍵盤 - Indonesian (Latin) - Javanese"
 Language=jax
 Label=id
 
-[keyboard-id-phonetic]
-Description="鍵盤 - Indonesian (Latin) - Indonesian (Arab Pegon, phonetic)"
+[keyboard-id-melayu-phonetic]
+Description="鍵盤 - Indonesian (Latin) - Indonesian (Arab Melayu, phonetic)"
 Language=id
 Label=id
 
-[keyboard-id-phoneticx]
-Description="鍵盤 - Indonesian (Latin) - Indonesian (Arab Pegon, extended phonetic)"
+[keyboard-id-melayu-phoneticx]
+Description="鍵盤 - Indonesian (Latin) - Indonesian (Arab Melayu, extended phonetic)"
+Language=id
+Label=id
+
+[keyboard-id-pegon-phonetic]
+Description="鍵盤 - Indonesian (Latin) - Indonesian (Arab Pegon, phonetic)"
 Language=id
 Label=id
 
@@ -3104,7 +3119,7 @@ Language=hu
 Label=hu
 
 [keyboard-hu-101_qwerty_comma_dead]
-Description="鍵盤 - 匈牙利語 - Hungarian (QWERTY, 101-key, comma, dead keys)"
+Description="鍵盤 - 匈牙利語 - )"
 Language=hu
 Label=hu
 
@@ -3403,11 +3418,6 @@ Description="鍵盤 - 西班牙語 (拉丁美洲) - Spanish (Latin American, Col
 Language=es
 Label=latam
 
-[keyboard-latam-colemak-gaming]
-Description="鍵盤 - 西班牙語 (拉丁美洲) - Spanish (Latin American, Colemak for gaming)"
-Language=es
-Label=latam
-
 [keyboard-mt]
 Description="鍵盤 - 馬爾他語"
 Language=mt
@@ -3514,7 +3524,7 @@ Language=pl
 Label=pl
 
 [keyboard-pl-csb]
-Description="鍵盤 - 波蘭語 - ashubian"
+Description="鍵盤 - 波蘭語 - 卡舒比語"
 Language=csb
 Label=pl
 
