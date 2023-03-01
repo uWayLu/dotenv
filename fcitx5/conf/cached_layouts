@@ -253,6 +253,86 @@ Description="鍵盤 - 烏克蘭語 - 烏克蘭語 (昇陽 Type 6/7)"
 Language=uk
 Label=ua
 
+[keyboard-il]
+Description="鍵盤 - 希伯來語"
+Language=he
+Label=he
+
+[keyboard-il-biblicalSIL]
+Description="鍵盤 - 希伯來語 - 希伯來語 (Biblical，SIL 音標)"
+Language=he
+Label=il
+
+[keyboard-tr]
+Description="鍵盤 - 土耳其語"
+Language=tr
+Label=tr
+
+[keyboard-tr-f]
+Description="鍵盤 - 土耳其語 - 土耳其語 (F)"
+Language=tr
+Label=tr
+
+[keyboard-tr-e]
+Description="鍵盤 - 土耳其語 - Turkish (E)"
+Language=tr
+Label=tr
+
+[keyboard-tr-alt]
+Description="鍵盤 - 土耳其語 - 土耳其語 (Alt-Q)"
+Language=tr
+Label=tr
+
+[keyboard-tr-ku]
+Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，拉丁字母 Q)"
+Language=ku
+Label=ku
+
+[keyboard-tr-ku_f]
+Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，F)"
+Language=ku
+Label=ku
+
+[keyboard-tr-ku_alt]
+Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，拉丁字母 Alt-Q)"
+Language=ku
+Label=ku
+
+[keyboard-tr-intl]
+Description="鍵盤 - 土耳其語 - Turkish (intl., with dead keys)"
+Language=tr
+Label=tr
+
+[keyboard-tr-ot]
+Description="鍵盤 - 土耳其語 - Ottoman (Q)"
+Language=tr
+Label=tr
+
+[keyboard-tr-otf]
+Description="鍵盤 - 土耳其語 - Ottoman (F)"
+Language=tr
+Label=tr
+
+[keyboard-tr-otk]
+Description="鍵盤 - 土耳其語 - Old Turkic"
+Language=tr
+Label=tr
+
+[keyboard-tr-otkf]
+Description="鍵盤 - 土耳其語 - Old Turkic (F)"
+Language=tr
+Label=tr
+
+[keyboard-tr-sun_type6]
+Description="鍵盤 - 土耳其語 - 土耳其語 (昇陽 Type 6/7)"
+Language=tr
+Label=tr
+
+[keyboard-tr-us]
+Description="鍵盤 - 土耳其語 - Turkish (Turkey, Latin Q, Swap i and ı)"
+Language=tr
+Label=tr
+
 [keyboard-th]
 Description="鍵盤 - 泰語"
 Language=th
@@ -309,7 +389,7 @@ Language=sk
 Label=sk
 
 [keyboard-sk-sun_type6]
-Description="鍵盤 - 斯洛伐克 - 斯洛伐克語 (昇陽 Type 6/7)"
+Description="鍵盤 - 斯洛伐克 - ak (Sun Type 6/7)"
 Language=sk
 Label=sk
 
@@ -498,6 +578,11 @@ Description="鍵盤 - 俄語 - Russian (Programmer)"
 Language=ru
 Label=winkeys-p
 
+[keyboard-ru-typo]
+Description="鍵盤 - 俄語 - Russian (typographic)"
+Language=ru
+Label=ru
+
 [keyboard-trans]
 Description="鍵盤 - International Phonetic Alphabet"
 Language=
@@ -657,6 +742,26 @@ Label=ee
 Description="鍵盤 - 愛沙尼亞語 - 愛沙尼亞語 (昇陽 Type 6/7)"
 Language=et
 Label=ee
+
+[keyboard-l]
+Description="鍵盤 - 希伯來語"
+Language=he
+Label=he
+
+[keyboard-l-lyx]
+Description="鍵盤 - 希伯來語 - 希伯來語 (lyx)"
+Language=he
+Label=l
+
+[keyboard-l-phonetic]
+Description="鍵盤 - 希伯來語 - 希伯來語 (音標)"
+Language=he
+Label=l
+
+[keyboard-l-biblical]
+Description="鍵盤 - 希伯來語 - 希伯來語 (Biblical，Tiro)"
+Language=he
+Label=l
 
 [keyboard-nl]
 Description="鍵盤 - 荷蘭語"
@@ -908,6 +1013,11 @@ Description="鍵盤 - 英語 (美式) - English (Colemak-DH ISO)"
 Language=en
 Label=us
 
+[keyboard-us-colemak_dh_ortho]
+Description="鍵盤 - 英語 (美式) - English (Colemak-DH Ortholinear)"
+Language=en
+Label=us
+
 [keyboard-us-dvorak]
 Description="鍵盤 - 英語 (美式) - 英語 (Dvorak 配置)"
 Language=en
@@ -1104,27 +1214,27 @@ Language=en
 Label=us
 
 [keyboard-ge]
-Description="鍵盤 - 喬治亞語"
+Description="鍵盤 - eorgian"
 Language=ka
 Label=ka
 
 [keyboard-ge-ergonomic]
-Description="鍵盤 - 喬治亞語 - 喬治亞語 (人體工學)"
+Description="鍵盤 - eorgian - 喬治亞語 (人體工學)"
 Language=ka
 Label=ge
 
 [keyboard-ge-mess]
-Description="鍵盤 - 喬治亞語 - 喬治亞語 (MESS)"
+Description="鍵盤 - eorgian - 喬治亞語 (MESS)"
 Language=ka
 Label=ge
 
 [keyboard-ge-ru]
-Description="鍵盤 - 喬治亞語 - 俄語 (喬治亞)"
+Description="鍵盤 - eorgian - 俄語 (喬治亞)"
 Language=ru
 Label=ru
 
 [keyboard-ge-os]
-Description="鍵盤 - 喬治亞語 - 奧塞提語 (喬治亞)"
+Description="鍵盤 - eorgian - 奧塞提語 (喬治亞)"
 Language=os
 Label=ge
 
@@ -1574,7 +1684,7 @@ Language=si
 Label=si
 
 [keyboard-lk-tam_unicode]
-Description="鍵盤 - 錫蘭僧加羅語 (音標) - (Sri Lanka, TamilNet '99)"
+Description="鍵盤 - 錫蘭僧加羅語 (音標) - Tamil (Sri Lanka, TamilNet '99)"
 Language=ta
 Label=ta
 
@@ -1689,7 +1799,7 @@ Language=da
 Label=dk
 
 [keyboard-dk-mac_nodeadkeys]
-Description="鍵盤 - 丹麥語 - Danish (Macintosh, no dead keys)"
+Description="鍵盤 - 丹麥語 - keys)"
 Language=da
 Label=dk
 
@@ -1913,6 +2023,11 @@ Description="鍵盤 - 印度語 - 印度語 (古吉拉特文)"
 Language=gu
 Label=gu
 
+[keyboard-in-guj-kagapa]
+Description="鍵盤 - 印度語 - Gujarati (KaGaPa, phonetic)"
+Language=gu
+Label=guj
+
 [keyboard-in-guru]
 Description="鍵盤 - 印度語 - 旁遮普語 (果魯穆其)"
 Language=pa
@@ -1976,7 +2091,7 @@ Label=ta
 [keyboard-in-tamilnet_tamilnumbers]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99 with Tamil numerals)"
 Language=ta
-Label=ta
+Label=a
 
 [keyboard-in-tamilnet_TAB]
 Description="鍵盤 - 印度語 - Tamil (TamilNet '99, TAB encoding)"
@@ -2174,7 +2289,12 @@ Language=lv
 Label=lv
 
 [keyboard-lv-modern]
-Description="鍵盤 - 拉脫維亞語 - 拉脫維亞語 (現代型)"
+Description="鍵盤 - 拉脫維亞語 - Latvian (Modern Latin)"
+Language=lv
+Label=lv
+
+[keyboard-lv-modern-cyr]
+Description="鍵盤 - 拉脫維亞語 - Latvian (Modern Cyrillic)"
 Language=lv
 Label=lv
 
@@ -3119,7 +3239,7 @@ Language=hu
 Label=hu
 
 [keyboard-hu-101_qwerty_comma_dead]
-Description="鍵盤 - 匈牙利語 - )"
+Description="鍵盤 - 匈牙利語 - Hungarian (QWERTY, 101-key, comma, dead keys)"
 Language=hu
 Label=hu
 
@@ -3187,101 +3307,6 @@ Label=oldhun
 Description="鍵盤 - 匈牙利語 - Old Hungarian (for ligatures)"
 Language=hu
 Label=oldhun(lig)
-
-[keyboard-tr]
-Description="鍵盤 - 土耳其語"
-Language=tr
-Label=tr
-
-[keyboard-tr-f]
-Description="鍵盤 - 土耳其語 - 土耳其語 (F)"
-Language=tr
-Label=tr
-
-[keyboard-tr-e]
-Description="鍵盤 - 土耳其語 - Turkish (E)"
-Language=tr
-Label=tr
-
-[keyboard-tr-alt]
-Description="鍵盤 - 土耳其語 - 土耳其語 (Alt-Q)"
-Language=tr
-Label=tr
-
-[keyboard-tr-ku]
-Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，拉丁字母 Q)"
-Language=ku
-Label=ku
-
-[keyboard-tr-ku_f]
-Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，F)"
-Language=ku
-Label=ku
-
-[keyboard-tr-ku_alt]
-Description="鍵盤 - 土耳其語 - 庫德語 (土耳其，拉丁字母 Alt-Q)"
-Language=ku
-Label=ku
-
-[keyboard-tr-intl]
-Description="鍵盤 - 土耳其語 - Turkish (intl., with dead keys)"
-Language=tr
-Label=tr
-
-[keyboard-tr-ot]
-Description="鍵盤 - 土耳其語 - Ottoman (Q)"
-Language=tr
-Label=tr
-
-[keyboard-tr-otf]
-Description="鍵盤 - 土耳其語 - Ottoman (F)"
-Language=tr
-Label=tr
-
-[keyboard-tr-otk]
-Description="鍵盤 - 土耳其語 - Old Turkic"
-Language=tr
-Label=tr
-
-[keyboard-tr-otkf]
-Description="鍵盤 - 土耳其語 - Old Turkic (F)"
-Language=tr
-Label=tr
-
-[keyboard-tr-sun_type6]
-Description="鍵盤 - 土耳其語 - 土耳其語 (昇陽 Type 6/7)"
-Language=tr
-Label=tr
-
-[keyboard-tr-us]
-Description="鍵盤 - 土耳其語 - Turkish (Turkey, Latin Q, Swap i and ı)"
-Language=tr
-Label=tr
-
-[keyboard-il]
-Description="鍵盤 - 希伯來語"
-Language=he
-Label=he
-
-[keyboard-il-lyx]
-Description="鍵盤 - 希伯來語 - 希伯來語 (lyx)"
-Language=he
-Label=il
-
-[keyboard-il-phonetic]
-Description="鍵盤 - 希伯來語 - 希伯來語 (音標)"
-Language=he
-Label=il
-
-[keyboard-il-biblical]
-Description="鍵盤 - 希伯來語 - 希伯來語 (Biblical，Tiro)"
-Language=he
-Label=il
-
-[keyboard-il-biblicalSIL]
-Description="鍵盤 - 希伯來語 - 希伯來語 (Biblical，SIL 音標)"
-Language=he
-Label=il
 
 [keyboard-it]
 Description="鍵盤 - 義大利語"
@@ -3354,7 +3379,7 @@ Language=ja
 Label=ja
 
 [keyboard-jp-kana]
-Description="鍵盤 - 日語 - 日語 (假名)"
+Description="鍵盤 - 日語 - ana)"
 Language=ja
 Label=jp
 

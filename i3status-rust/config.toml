@@ -1,5 +1,5 @@
 theme = "gruvbox-light"
-icons = "awesome"
+icons = "material-nf"
 
 #[[block]]
 #block = "focused_window"
@@ -67,3 +67,8 @@ notifier = "notifysend"
 block = "time"
 interval = 1
 format = "%a %Y-%m-%d %T"
+
+[[block]]
+block = "battery"
+format = "{percentage} {time}"
+driver = "upower"
