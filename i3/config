@@ -483,7 +483,7 @@ mode "$mode_gaps_outer" {
 ########## Multiple Monitors
 ################################################################################
 
-exec xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary --panning 1920x1080;
+exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
 
 set $1stMonitor DP-2
 set $2ndMonitor DP-0
