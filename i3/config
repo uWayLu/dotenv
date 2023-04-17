@@ -64,6 +64,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
+bindsym $mod+F1 exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
 bindsym $mod+F2 exec $BROWSER
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec i3-sensible-terminal -e 'ranger'
