@@ -3,6 +3,7 @@
 誤砍家目錄方知痛
 先備份 PC 上 i3-config，再 fork 成不同版本
 
+repo 對應 $HOME/.config
 
 ## TODO
 
