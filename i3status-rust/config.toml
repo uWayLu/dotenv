@@ -56,8 +56,5 @@ notify_cmd = "notifysend '{msg}'"
 [[block]]
 block = "time"
 interval = 1
-format = "$timestamp.datetime(f:'%a %Y-%m-%d %T')"
+format = "$timestamp.datetime(f:'%a %Y-%m-%d %T') "
 
-[[block]]
-block = "battery"
-driver = "upower"

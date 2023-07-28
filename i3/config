@@ -68,7 +68,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness 
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F1 exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
+#bindsym $mod+F1 exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
 bindsym $mod+F2 exec $BROWSER
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec i3-sensible-terminal -e 'ranger'
@@ -382,12 +382,12 @@ set_from_resource $term_color15    color15
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
-    font pango: SauceCodePro Nerd Font 11
+    font pango: MesloLGS NF 12
     position bottom
     status_command i3status-rs
     output primary
     strip_workspace_numbers yes
-    tray_padding 0
+    tray_padding 1
     tray_output primary
 
     colors {
@@ -402,7 +402,7 @@ bar {
 }
 
 bar {
-    font pango: SauceCodePro Nerd Font 11
+    font pango: Meslo NF 8
     i3bar_command i3bar
     output nonprimary
     position bottom
@@ -488,10 +488,10 @@ mode "$mode_gaps_outer" {
 ########## Multiple Monitors
 ################################################################################
 
-exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
+#exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
 
-set $1stMonitor DP-2
-set $2ndMonitor DP-0
+set $1stMonitor HDMI-2
+set $2ndMonitor HDMI-1
 
 workspace $ws1 output $1stMonitor
 workspace $ws2 output $1stMonitor
