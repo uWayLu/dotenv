@@ -165,8 +165,8 @@ set $ws5 "5:  ﲉ "
 set $ws6 "6: ﭮ  "
 set $ws7 "7: ﴬ "
 set $ws8 "8:  "
-# set $ws9 "9: ﴬ "
-# set $ws10 "10: ﬘ "
+set $ws9 "9: ﴬ "
+set $ws10 "10: ﬘ "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -177,8 +177,8 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
-# bindsym $mod+9 workspace $ws9
-# bindsym $mod+0 workspace $ws10
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
 
 
 # Move focused container to workspace
@@ -190,8 +190,8 @@ bindsym $mod+Ctrl+5 move container to workspace $ws5
 bindsym $mod+Ctrl+6 move container to workspace $ws6
 bindsym $mod+Ctrl+7 move container to workspace $ws7
 bindsym $mod+Ctrl+8 move container to workspace $ws8
-# bindsym $mod+Ctrl+9 move container to workspace $ws9
-# bindsym $mod+Ctrl+0 move container to workspace $ws10
+bindsym $mod+Ctrl+9 move container to workspace $ws9
+bindsym $mod+Ctrl+0 move container to workspace $ws10
 
 # Move to workspace with focused container
 bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
@@ -202,17 +202,17 @@ bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
-# bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
-# bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws10
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws10
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
-assign [class="discord"] $ws6
-assign [class="TelegramDesktop"] $ws6
-assign [class="line.exe"] $ws8
+assign [class="discord"] $ws2
+assign [class="TelegramDesktop"] $ws2
+assign [class="line.exe"] $ws2
 # TODO assign vs for_window move differenct?
 # for_window [class="discord"] move container to workspace $ws6
 # for_window [class="TelegramDesktop"] move container to workspace $ws7
@@ -345,9 +345,10 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id LC_ALL=en_US.UTF-8 start_conky_maia
 # exec --no-startup-id start_conky_green
 #exec --no-startup-id xautolock -time 10 -locker blurlock
-#exec --no-startup-id xautolock -time 10 -locker blurlock -notify 15 -notifier 'xset dpms force off'
+exec --no-startup-id xautolock -time 10 -locker blurlock -notify 15 -notifier 'xset dpms force off'
 #exec_always --no-startup-id ff-theme-util
 #exec_always --no-startup-id fix_xcursor
+exec --no-startup-id fcitx5-remote;
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -490,18 +491,20 @@ mode "$mode_gaps_outer" {
 
 #exec xrandr --auto && xrandr --output DP-0 --right-of DP-2 --output DP-2 --primary;
 
-set $1stMonitor HDMI-2
-set $2ndMonitor HDMI-1
+set $1stMonitor HDMI-1
+set $2ndMonitor HDMI-2
 
 workspace $ws1 output $1stMonitor
 workspace $ws2 output $1stMonitor
 workspace $ws3 output $1stMonitor
 workspace $ws4 output $1stMonitor
+workspace $ws5 output $1stMonitor
 
-workspace $ws5 output $2ndMonitor
 workspace $ws6 output $2ndMonitor
 workspace $ws7 output $2ndMonitor
 workspace $ws8 output $2ndMonitor
+workspace $ws9 output $2ndMonitor
+workspace $ws10 output $2ndMonitor
 
 ################################################################################
 ########## Others

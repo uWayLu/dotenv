@@ -12,6 +12,7 @@ repo 對應 $HOME/.config
 + [x] X launcher: rofi
 + [x] compositor: picom
 + [x] background: nitrogen
++ [ ] merge branch-by-device to main/dev; seperate devices by "deploy/*"
 
 ## Screenshots
 
