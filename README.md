@@ -3,7 +3,13 @@
 誤砍家目錄方知痛
 先備份 PC 上 i3-config，再 fork 成不同版本
 
-repo 對應 $HOME/.config
+~~repo 對應 $HOME/.config~~
+
+`./{device}/$HOME`
+
+## init.sh
+
+Script for Deploying to ~/.config
 
 ## TODO
 
@@ -15,7 +21,7 @@ repo 對應 $HOME/.config
 
 ## Screenshots
 
-![81ns-20220902](./.screenshots/20220902.png)
+![81ns-20220902](./lenovo-y7000-2019-81ns/.screenshots/20220902.png)
 
 
 ## References
