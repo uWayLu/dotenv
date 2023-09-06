@@ -50,7 +50,7 @@ EnumerateSkipFirst=False
 # 預設啟用
 ActiveByDefault=True
 # 共享輸入法狀態
-ShareInputState=No
+ShareInputState=All
 # 在應用程式中顯示預編輯
 PreeditEnabledByDefault=True
 # 當切換輸入法時顯示輸入法資訊
