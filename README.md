@@ -18,6 +18,7 @@ Script for Deploying to ~/.config
 + [x] X launcher: rofi
 + [x] compositor: picom
 + [x] background: nitrogen
++ [ ] hotkey cheatsheet
 
 ## Screenshots
 
