@@ -1,0 +1,11 @@
+[Unit]
+Description=AzurLaneAutoScript
+
+[Service]
+Type=simple
+ExecStart=/home/ywl/.conda/envs/alas/bin/python /opt/AzurLaneAutoScript/gui.py
+WorkingDirectory=/opt/AzurLaneAutoScript
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

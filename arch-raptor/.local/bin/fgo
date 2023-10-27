@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+PORT=5566
+DEVICE=localhost:$PORT
+
+if ( adb devices | grep -q "$DEVICE[[:space:]]\+device" ); then
+	echo "deivce exists; do mirroring"
+else
+	adb connect $DEVICE
+	sleep 1
+fi
+
+nohup prime-run scrcpy -s $DEVICE
+#	--audio-codec=aac \
+#	--audio-encoder='OMX.google.aac.encoder' \
+#	--audio-buffer=32 \
+#	> /dev/null 2>&1 &
