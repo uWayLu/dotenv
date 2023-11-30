@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-PORT=5556
+PORT=5557
 DEVICE=localhost:$PORT
 APP="scrcpy -s $DEVICE \
 	--audio-codec=aac \
@@ -11,7 +11,7 @@ if ( adb devices | grep -q "$DEVICE[[:space:]]\+device" ); then
 	echo "deivce exists; do mirroring"
 	$($APP)
 else
-	TUN="ssh -M -fNL $PORT:127.0.0.1:5566 win11.wan"
+	TUN="ssh -M -fNL $PORT:127.0.0.1:5567 win11.wan"
 	pkill -f "$TUN"
 	$($TUN) && adb connect $DEVICE && $($APP)
 fi

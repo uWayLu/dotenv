@@ -2,7 +2,7 @@
 
 PORT=${1:-22267}
 
-TUN="ssh -fNL $PORT:127.0.0.1:$PORT win11.lan"
+TUN="ssh -M -fNL $PORT:127.0.0.1:$PORT win11.wan"
 pkill -f "$TUN"
 $($TUN)
 
