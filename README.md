@@ -23,7 +23,7 @@ Script for Deploying to ~/.config
 ## Screenshots
 
 ![81ns-20220902](./lenovo-y7000-2019-81ns/.screenshots/20220902.png)
-
+![82k2-20231213](./lenovo-ideapad-gaming3-2021-82k2/swappy-20231213_172259.png)
 
 ## References
 

@@ -1,0 +1,7 @@
+
+search 
+open_with vim
+d
+delete
+[27;9;27~[27;9;27~[27;9;27~
+cd /home/ywl/Workspace/dotenv/
