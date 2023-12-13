@@ -326,3 +326,4 @@
 [2023.12.13 17:16:57] Unable to get last user input time from org.freedesktop.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Unknown method GetSessionIdleTime or interface org.freedesktop.ScreenSaver.
 [2023.12.13 17:20:27] Unable to get last user input time from org.freedesktop.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Unknown method GetSessionIdleTime or interface org.freedesktop.ScreenSaver.
 [2023.12.13 17:23:57] Unable to get last user input time from org.freedesktop.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Unknown method GetSessionIdleTime or interface org.freedesktop.ScreenSaver.
+[2023.12.13 17:27:27] Unable to get last user input time from org.freedesktop.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Unknown method GetSessionIdleTime or interface org.freedesktop.ScreenSaver.
