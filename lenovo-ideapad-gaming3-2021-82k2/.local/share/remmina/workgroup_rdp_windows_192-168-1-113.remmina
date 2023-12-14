@@ -121,3 +121,9 @@ clientbuild=
 relax-order-checks=0
 proxy_type=socks5
 protocol=RDP
+
+[proxy]
+proxy_enabled=1
+proxy_type=SOCKS
+proxy_server=127.0.0.1
+proxy_port=9090
