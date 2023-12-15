@@ -1,2 +1,7 @@
 #!/usr/bin/zsh
-/usr/bin/brave "$@" --gtk-version=4
+/usr/bin/brave \
+	--enable-features=UseOzonePlatform,WaylandWindowDecorations \
+	--ozone-platform=wayland \
+	--gtk-version=4 \
+	"$@"
+
