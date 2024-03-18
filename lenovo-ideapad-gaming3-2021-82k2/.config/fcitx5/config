@@ -1,7 +1,7 @@
 [Hotkey]
-# 重複觸發鍵時枚舉輸入法
+# Enumerate when press trigger key repeatedly
 EnumerateWithTriggerKeys=True
-# 枚舉時略過第一個輸入法
+# Skip first input method while enumerating
 EnumerateSkipFirst=False
 
 [Hotkey/TriggerKeys]
@@ -47,25 +47,25 @@ EnumerateSkipFirst=False
 0=Control+Alt+P
 
 [Behavior]
-# 預設啟用
+# Active By Default
 ActiveByDefault=True
-# 共享輸入法狀態
-ShareInputState=All
-# 在應用程式中顯示預編輯
+# Share Input State
+ShareInputState=Program
+# Show preedit in application
 PreeditEnabledByDefault=True
-# 當切換輸入法時顯示輸入法資訊
+# Show Input Method Information when switch input method
 ShowInputMethodInformation=True
-# 當切換輸入焦點時顯示輸入法資訊
+# Show Input Method Information when changing focus
 showInputMethodInformationWhenFocusIn=True
-# 顯示緊湊的輸入法訊息
+# Show compact input method information
 CompactInputMethodInformation=True
-# 顯示第一個輸入法資訊
+# Show first input method information
 ShowFirstInputMethodInformation=True
-# 預設頁面大小
+# Default page size
 DefaultPageSize=3
-# 覆蓋 Xkb 選項
+# Override Xkb Option
 OverrideXkbOption=False
-# 自定 Xkb 選項
+# Custom Xkb Option
 CustomXkbOption=
 # Force Enabled Addons
 EnabledAddons=
@@ -73,4 +73,10 @@ EnabledAddons=
 DisabledAddons=
 # Preload input method to be used by default
 PreloadInputMethod=True
+# Allow input method in the password field
+AllowInputMethodForPassword=False
+# Show preedit text when typing password
+ShowPreeditForPassword=False
+# Interval of saving user data in minutes
+AutoSavePeriod=30
 

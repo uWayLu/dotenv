@@ -33,8 +33,8 @@ small_toolbutton=false
 view_file_mode=1
 resolutions=3840x2160,1920x1080,640x480,800x600,1024x768,1152x864,1280x960,1400x1050
 keystrokes=Send hello world§hello world\\n
-main_width=945
-main_height=986
+main_width=893
+main_height=468
 main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
@@ -239,3 +239,10 @@ glyph-cache=0
 proxy_type=socks5
 protocol=RDP
 relax-order-checks=0
+
+[remmina_info]
+periodic_news_permitted=false
+periodic_news_last_checksum=
+periodic_usage_stats_permitted=false
+info_uid_prefix=V43SFZXHYZH3Y9
+disable_tip=true
