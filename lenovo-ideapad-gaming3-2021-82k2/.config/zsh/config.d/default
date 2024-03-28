@@ -1,0 +1,9 @@
+#if [[ -f ~/.profile ]]; then
+#  function {
+#    emulate -L sh
+#    source ~/.profile
+#  }
+#fi
+export PATH
+export BROWSER=brave
+export EDITOR=vim
