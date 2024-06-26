@@ -10,7 +10,7 @@ PartOf=pulseaudio.service
 
 [Service]
 ExecStart=/usr/bin/spotifyd --no-daemon
-Restart=always
+Restart=never
 RestartSec=12
 
 [Install]

@@ -10,11 +10,14 @@ fi
 source ~/.zshrc
 
 # fix for comment color on manjaro zsh theme
-ZSH_HIGHLIGHT_STYLES[comment]='fg=blue'
+#ZSH_HIGHLIGHT_STYLES[comment]='fg=blue'
 
 # user-defined overrides
 [ -d ~/.config/zsh/config.d/ ] && source <(cat ~/.config/zsh/config.d/*)
 
 # Fix for foot terminfo not installed on most servers
 alias ssh="TERM=xterm-256color ssh"
-source ~/.config/user-dirs.dirs
+#source ~/.config/user-dirs.dirs
+
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
